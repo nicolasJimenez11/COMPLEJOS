@@ -44,3 +44,7 @@ Paso 3 lo corres así:
 ./COMPLEJOS Entrada.txt
 
 **RESULTADOS**
+
+estos fueron la lista de numeros que se usaron:
+
+
