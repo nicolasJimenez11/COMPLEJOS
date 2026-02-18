@@ -45,6 +45,22 @@ Paso 3 lo corres así:
 
 **RESULTADOS**
 
-estos fueron la lista de numeros que se usaron:
+Análisis de los resultados
+
+Al correr el programa con un archivo que contiene varias líneas, vemos que identifica bien los números complejos en formatos correctos, como:
+
+3+4i
+
+4i+3
+
+-3.5-2J
+
+i+3
+
+Estos casos imprimen ACEPTA, mostrando que las reglas están capturando correctamente los patrones válidos.
+
+En cambio, cuando la línea tiene formatos que no cumplen las reglas —como notación científica (45e+3) o expresiones con símbolos de multiplicación (3*i)— el programa responde con NO ACEPTA, lo que indica que esos formatos no coinciden con el patrón esperado.
+
+Esto confirma que el programa filtra correctamente y solo reconoce números complejos en las formas definidas, evitando falsos positivos con formatos inválidos o textos que no representan números complejos.
 
 
